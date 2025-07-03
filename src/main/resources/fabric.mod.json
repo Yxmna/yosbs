@@ -9,7 +9,8 @@
 	"icon": "assets/yosbs/icon.png",
 	"environment": "*",
 	"contact": {
-		"homepage": "https://modrinth.com/project/1Gw7bnTq"
+		"homepage": "https://modrinth.com/project/1Gw7bnTq",
+		"sources": "https://github.com/Yxmna/yosbs"
 	},
 	"entrypoints": {
 		"preLaunch": [
@@ -18,7 +19,7 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": ">=1.17",
-		"java": ">=16"
+		"minecraft": ">=1.14",
+		"java": ">=8"
 	}
 }

@@ -1,14 +1,14 @@
 package io.github.yxmna.yosbs.util;
 
 /**
- * Adds a fixed tag (e.g. "[YOSBS] ") in front of every SLF4J log message.
+ * Adds a fixed tag (e.g. "[YOSBS] ") in front of every Log4j 2 message.
  */
 public final class Logger {
 
-    private final org.slf4j.Logger delegate;
+    private final org.apache.logging.log4j.Logger delegate;
     private final String tag;
 
-    public Logger(org.slf4j.Logger delegate, String tag) {
+    public Logger(org.apache.logging.log4j.Logger delegate, String tag) {
         this.delegate = delegate;
         this.tag      = tag;
     }

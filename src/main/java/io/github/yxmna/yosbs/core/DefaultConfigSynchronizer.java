@@ -7,6 +7,9 @@ import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.List;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 /**
  * Synchronises default configuration files shipped with a modpack
  * into the live Minecraft directory only if> those files are
@@ -26,10 +29,10 @@ public final class DefaultConfigSynchronizer {
         this.logger     = logger;
         this.mcDir      = mcDir;
         this.configDir  = configDir;
-        this.roots = List.of(
+        this.roots = Collections.unmodifiableList(Arrays.asList(
                 configDir.resolve("yosbs"),
                 configDir.resolve("yosbr")
-        );
+        ));
     }
 
     /**
