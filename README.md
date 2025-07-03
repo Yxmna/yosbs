@@ -1,17 +1,17 @@
 # Your Options Shall Be Saved (YOSBS)
 
-Your Options Shall Be Saved (YOSBS) is a lightweight utility mod that lets modpack creators define default configuration files without overwriting player preferences.
+Your Options Shall Be Saved (YOSBS) is a lightweight utility mod that lets modpack creators define default configuration files without overwriting player preferences
 
-Updating a modpack often resets custom settings like keybinds or mod configs, because most launchers replace the entire `config/` folder.
+Updating a modpack often resets custom settings like keybinds or mod configs, because most launchers replace the entire `config/` folder
 
-YOSBS solves this by copying any file placed in `config/yosbs/` to its proper location only once on first launch — and never again.
+YOSBS solves this by copying any file placed in `config/yosbs/` to its proper location only once on first launch — and never again
 
 This gives full control to the pack author:
 
 - Files inside `config/yosbs/` are treated as user-owned: copied once, then left untouched
 - Files inside `config/` behave as usual: they will be replaced on each update
 
-That way, you decide which configs should persist, and which should reset."
+That way, you decide which configs should persist, and which should reset
 
 ## Links
 - **Modrinth**: https://modrinth.com/project/1Gw7bnTq
@@ -23,7 +23,7 @@ That way, you decide which configs should persist, and which should reset."
 - Runs in the **pre-launch phase**, before Fabric/Forge starts loading the rest of the mods
 
 
-## Compatibility & Installation 
+## Compatibility & Installation
 1. Fabric Loader ≥ 0.4.0 *(No Fabric API required)*
 2. Minecraft 1.14 – 1.21.x
 3. Requires Java 8 or newer 
