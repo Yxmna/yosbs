@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "yosbs",
+	"version": "${version}",
+	"name": "YourOptionsShallBeSaved",
+	"description": "Copies default options/config files from /config/yosbs when absent.",
+	"authors": ["Yomna"],
+	"license": "LGPL-3.0-only",
+	"icon": "assets/yosbs/icon.png",
+	"environment": "*",
+	"contact": {
+		"homepage": "https://modrinth.com/project/1Gw7bnTq"
+	},
+	"entrypoints": {
+		"preLaunch": [
+			"io.github.yxmna.yosbs.YosbsPreLaunch"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.17",
+		"java": ">=16"
+	}
+}
