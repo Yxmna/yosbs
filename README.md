@@ -23,13 +23,12 @@ That way, you decide which configs should persist, and which should reset."
 - Runs in the **pre-launch phase**, before Fabric/Forge starts loading the rest of the mods
 
 
-## Compatibility
-|                    | Version(s) |
-|--------------------|------------|
-| **Minecraft**      | 1.14 → 1.21.x |
-| **Loader**         | Fabric 0.4+  |
-| **Java**           | 8 or newer |
-| **Arch/** 🔒 | Client & Server safe |
+## Compatibility & Installation 
+1. Fabric Loader ≥ 0.4.0 *(No Fabric API required)*
+2. Minecraft 1.14 – 1.21.x
+3. Requires Java 8 or newer 
+4. Put the YOSBS jar in `mods/` and launch once – the folder `/config/yosbs` is created automatically (or create it manually)
+
 
 
 ## Usage examples
